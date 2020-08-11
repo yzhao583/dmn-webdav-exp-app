@@ -1,10 +1,11 @@
 import React from "react";
-import DmnViewerComponent from "./components/dmn-viewer";
+import DmnModelerComponent from "./components/dmn-modeler/dmn-modeler";
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <DmnViewerComponent />
+    <div className="App" id="app">
+      <DmnModelerComponent />
     </div>
   );
 }
